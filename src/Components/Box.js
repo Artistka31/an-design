@@ -129,7 +129,10 @@ export default class Box extends Component {
             >
               <div className="row pb-4 mt-5">
                 <div className="col-12 text-center">
-                  <h2 className="font-weight-light text-dark-blue">
+                  <h2
+                    className="font-weight-light text-dark-blue"
+                    style={{ fontFamily: "Montserrat, sans-serif" }}
+                  >
                     НАШИ УСЛУГИ
                   </h2>
                 </div>
