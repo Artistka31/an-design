@@ -43,7 +43,10 @@ export default class Button3d extends React.Component {
           this.node = node;
         }}
       >
-        <button onClick={this.handleClick} style={{ border: "0px" }}>
+        <button
+          onClick={this.handleClick}
+          style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
+        >
           3Д ВИЗУАЛИЗАЦИЯ
         </button>
         {this.state.popupVisible && (

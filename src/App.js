@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 
 import { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";

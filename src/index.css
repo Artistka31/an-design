@@ -1,11 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   margin: 0;
-}
-body {
   font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+/* code {
+  font-family: "Montserrat", sans-serif;
+} */

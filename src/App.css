@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  /*   font-family: "Montserrat", sans-serif; */
   max-width: 100%;
 }
 
@@ -28,6 +28,7 @@ body {
   background: transparent;
   border-color: #1c4280;
   color: #1c4280;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn-outline-light-blue:hover:hover,
@@ -46,11 +47,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
+  font-family: "Montserrat", sans-serif;
 }
 .buttons {
   transform: translateY(0%);
   box-shadow: 0 0 10px #373636;
   background: transparent;
+  font-family: "Montserrat", sans-serif;
 }
 
 .vr {
@@ -117,6 +120,7 @@ body {
 .bubble {
   background: rgba(255, 255, 255, 0.623);
   padding: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
 #dropdown-basic-button {
@@ -143,7 +147,7 @@ body {
   font-weight: bold;
 }
 
-.form {
+.Form {
   margin-top: 10px;
   border: 1px solid lightgray;
   border-radius: 10px;

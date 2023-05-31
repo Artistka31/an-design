@@ -43,7 +43,10 @@ export default class ButtonPlan extends React.Component {
           this.node = node;
         }}
       >
-        <button onClick={this.handleClick} style={{ border: "0px" }}>
+        <button
+          onClick={this.handleClick}
+          style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
+        >
           ПЛАНИРОВКИ
         </button>
         {this.state.popupVisible && (

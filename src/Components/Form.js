@@ -33,15 +33,15 @@ const FormSubmission = () => {
 
   return (
     <Container style={{ width: "500px" }}>
-      <h1 id="Contact">Contact me</h1>
+      <h1 id="Contact">Напишите нам{/* Contact us */}</h1>
       <div className="Form">
         <Form onSubmit={handleOnSubmit}>
           <Form.Field
             id="form-input-control-email"
             control={Input}
-            label="Email address"
+            label=/* "Email address" */ "Ваш email"
             name="user_email"
-            placeholder="Enter your email address"
+            placeholder=/* "Enter your email address" */ "Введите ваш email адрес"
             required
             icon="mail"
             iconPosition="left"
@@ -49,9 +49,9 @@ const FormSubmission = () => {
           <Form.Field
             id="form-input-control-last-name"
             control={Input}
-            label="Name"
+            label=/* "Name" */ "Имя"
             name="user_name"
-            placeholder="Enter your name"
+            placeholder=/* "Enter your name" */ "Введите ваше имя"
             required
             icon="user circle"
             iconPosition="left"
@@ -59,9 +59,9 @@ const FormSubmission = () => {
           <Form.Field
             id="form-textarea-control-opinion"
             control={TextArea}
-            label="Message"
+            label=/* "Message" */ "Сообщение"
             name="user_message"
-            placeholder="Enter your message"
+            placeholder=/* "Enter your message" */ "Введите ваше сщщбщение"
             required
           />
           <Button
@@ -69,7 +69,7 @@ const FormSubmission = () => {
             color="blue"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Submit
+            {/*  Submit */}Подтвердить
           </Button>
         </Form>
       </div>
