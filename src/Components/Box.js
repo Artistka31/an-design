@@ -125,6 +125,7 @@ export default class Box extends Component {
               className="container"
               style={{
                 marginTop: "3em",
+                fontFamily: "Montserrat, sans-serif",
               }}
             >
               <div className="row pb-4 mt-5">
@@ -175,7 +176,12 @@ export default class Box extends Component {
 
             <div className="virtual-studio-background py-5">
               <section className="container pt-5 pb-3">
-                <h2 className="text-center text-light font-weight-light text-shadow-gray">
+                <h2
+                  className="text-center text-light font-weight-light text-shadow-gray"
+                  style={{
+                    fontFamily: "Montserrat, sans-serif",
+                  }}
+                >
                   ВИЗУАЛИЗАЦИЯ ИНТЕРЬЕРА
                 </h2>
                 <div className="row">
@@ -208,7 +214,12 @@ export default class Box extends Component {
               <div className="footer-background">
                 <footer className="container py-3">
                   <div className="row">
-                    <div className="col d-flex align-items-center text-muted">
+                    <div
+                      className="col d-flex align-items-center text-muted"
+                      style={{
+                        fontFamily: "Montserrat, sans-serif",
+                      }}
+                    >
                       2022 AN_DESIGN
                     </div>
                     <div className="col d-flex align-items-center justify-content-end">

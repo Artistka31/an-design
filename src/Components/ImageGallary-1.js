@@ -36,22 +36,14 @@ function ImageGallery1() {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
 
   //looping through our images array to create img elements
-  /*   const imageCards = images.map((image) => (
+  const imageCards = images.map((image, index) => (
     <img
       className="image-card"
       onClick={() => showImage(image)}
       src={image}
-      alt=""
-    />
-  )); */
-
-  const imageCards = images.map((image) => (
-    <img
-      className="image-card"
-      onClick={() => showImage(image)}
-      src={image}
-      key={image.id}
-      id={image.id}
+      key={[`image-${index}`]}
+      id={index}
+      alt="img"
     />
   ));
 

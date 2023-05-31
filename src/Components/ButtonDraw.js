@@ -43,7 +43,10 @@ export default class ButtonDraw extends React.Component {
           this.node = node;
         }}
       >
-        <button onClick={this.handleClick} style={{ border: "0px" }}>
+        <button
+          onClick={this.handleClick}
+          style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
+        >
           ЧЕРТЕЖИ
         </button>
         {this.state.popupVisible && (

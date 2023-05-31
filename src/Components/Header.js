@@ -14,10 +14,8 @@ import Portfolio from "../Pages/portfolio";
 import Services from "../Pages/services";
 import Contact from "../Pages/contact";
 import Gallary from "../Components/Gallary";
-import Gallary1 from "../Components/Gallary1";
-import GallaryHall from "../Components/GallaryHall-17";
-/* import Accordion from "../Components/Accordion"; */
 import logo from "../assets/logo_an-1.png";
+/* import flat from "../Components/data.json"; */
 
 export default class Header extends Component {
   render() {
@@ -74,15 +72,6 @@ export default class Header extends Component {
                 >
                   ПОРТФОЛИО
                 </Nav.Link>
-                {/*  <Nav.Link
-                  href="/Gallary"
-                  style={{
-                    color: "white",
-                  }}
-                  className="navbar-link"
-                >
-                  Галлерея
-                </Nav.Link> */}
                 <Nav.Link
                   href="/services"
                   style={{
@@ -135,8 +124,6 @@ export default class Header extends Component {
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/Gallary" element={<Gallary />} />
-            <Route path="/GallaryHall-17" element={<GallaryHall />} />
-            <Route path="/Gallary1" element={<Gallary1 />} />
           </Routes>
         </Router>
       </>
