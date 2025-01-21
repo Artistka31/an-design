@@ -1,5 +1,6 @@
 import React from "react";
 import "./Button.css";
+import { Translation } from "react-i18next";
 
 export default class ButtonDraw extends React.Component {
   constructor() {
@@ -37,40 +38,59 @@ export default class ButtonDraw extends React.Component {
 
   render() {
     return (
-      <div
-        className="popover-container"
-        ref={(node) => {
-          this.node = node;
-        }}
-      >
-        <button
-          onClick={this.handleClick}
-          style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
-        >
-          ЧЕРТЕЖИ
-        </button>
-        {this.state.popupVisible && (
-          <div className="popover">
-            Обмерочный план <br /> План демонтажа <br />
-            План возводимых перегородок и ГК конструкций <br />
-            План мебели с указанием размеров <br />
-            Схема раскладки напольных покрытий <br />
-            План потолков
-            <br />
-            План розеток, выключателей, слаботочных сетей
-            <br />
-            План освещения
-            <br />
-            Схема освещения
-            <br />
-            Схема тёплого пола и кондиционеров
-            <br />
-            План сантехнического оборудования
-            <br />
-            Развёртки по стенам
+      <Translation>
+        {(t) => (
+          <div
+            className="popover-container"
+            ref={(node) => {
+              this.node = node;
+            }}
+          >
+            <button
+              onClick={this.handleClick}
+              style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
+            >
+              {t(["home.draw"])}
+              {/*  DRAWINGS */}
+            </button>
+            {this.state.popupVisible && (
+              <div className="popover">
+                {t(["home.draw-2"])}
+                {/* Plan with dimensions  */}
+                <br />
+                {t(["home.draw-3"])} {/* Dismantling plan */} <br />
+                {t(["home.draw-4"])}
+                {/* Plan for building partitions and structural elements */}{" "}
+                <br />
+                {t(["home.draw-5"])}
+                {/* Furniture placement plan with dimensions */} <br />
+                {t(["home.draw-6"])}
+                {/* Flooring layout scheme */} <br />
+                {t(["home.draw-7"])}
+                {/*  Ceiling plan */}
+                <br />
+                {t(["home.draw-8"])}
+                {/*   Plan of sockets, switches, low-current networks */}
+                <br />
+                {t(["home.draw-9"])}
+                {/* Lighting plan */}
+                <br />
+                {t(["home.draw-10"])}
+                {/*  Lighting scheme */}
+                <br />
+                {t(["home.draw-11"])}
+                {/*  Floor heating and air conditioning scheme */}
+                <br />
+                {t(["home.draw-12"])}
+                {/* Sanitary equipment scheme */}
+                <br />
+                {t(["home.draw-13"])}
+                {/* Development of walls */}
+              </div>
+            )}
           </div>
         )}
-      </div>
+      </Translation>
     );
   }
 }

@@ -2,20 +2,17 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route /*  Link */,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "../Pages/home";
 import Portfolio from "../Pages/portfolio";
 import Services from "../Pages/services";
 import Contact from "../Pages/contact";
-import Gallary from "../Components/Gallary";
 import logo from "../assets/logo_an-1.png";
-/* import flat from "../Components/data.json"; */
+
+import Changing from "../Changing";
+
+import { Translation } from "react-i18next";
 
 export default class Header extends Component {
   render() {
@@ -53,66 +50,62 @@ export default class Header extends Component {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto navbar-underline">
-                <Nav.Link
-                  href="/home"
-                  style={{
-                    color: "white",
-                  }}
-                  className="navbar-link"
-                >
-                  ГЛАВНАЯ
-                </Nav.Link>
-                <Nav.Link
-                  href="/portfolio"
-                  style={{
-                    color: "white",
-                  }}
-                  className="navbar-link"
-                >
-                  ПОРТФОЛИО
-                </Nav.Link>
-                <Nav.Link
-                  href="/services"
-                  style={{
-                    color: "white",
-                  }}
-                  className="navbar-link"
-                >
-                  УСЛУГИ И ЦЕНЫ
-                </Nav.Link>
-                <Nav.Link
-                  eventKey={2}
-                  href="/contact"
-                  style={{
-                    color: "white",
-                  }}
-                  className="navbar-link"
-                >
-                  КОНТАКТ
-                </Nav.Link>
+              <Translation>
+                {(t) => (
+                  <Nav className="mr-auto navbar-underline">
+                    <Nav.Link
+                      href="/home"
+                      style={{
+                        color: "white",
+                      }}
+                      className="navbar-link"
+                    >
+                      {/*       HOME */}
+                      {t(["nav.nav"])}
+                    </Nav.Link>
+                    <Nav.Link
+                      href="/portfolio"
+                      style={{
+                        color: "white",
+                      }}
+                      className="navbar-link"
+                    >
+                      {/*   PORTFOLIO */}
+                      {t(["nav.nav-2"])}
+                    </Nav.Link>
+                    <Nav.Link
+                      href="/services"
+                      style={{
+                        color: "white",
+                      }}
+                      className="navbar-link"
+                    >
+                      {/*  SERVICES */}
+                      {t(["nav.nav-3"])}
+                    </Nav.Link>
+                    <Nav.Link
+                      eventKey={2}
+                      href="/contact"
+                      style={{
+                        color: "white",
+                      }}
+                      className="navbar-link"
+                    >
+                      {/*  CONTACT */}
+                      {t(["nav.nav-4"])}
+                    </Nav.Link>
 
-                <NavDropdown title="RU" className="navbar-link">
-                  <NavDropdown.Item
-                    eventKey="01"
-                    href=""
-                    style={{
-                      color: "white",
-                    }}
-                  >
-                    EN
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    eventKey="02"
-                    href=""
-                    style={{
-                      color: "white",
-                    }}
-                  >
-                    CZ
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
+                    <div
+                      className="navbar-link "
+                      style={{
+                        marginLeft: "1em",
+                      }}
+                    >
+                      <Changing />
+                    </div>
+                  </Nav>
+                )}
+              </Translation>
             </Navbar.Collapse>
           </Container>
         </Navbar>
@@ -123,7 +116,6 @@ export default class Header extends Component {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/Gallary" element={<Gallary />} />
           </Routes>
         </Router>
       </>

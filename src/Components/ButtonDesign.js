@@ -1,5 +1,6 @@
 import React from "react";
 import "./Button.css";
+import { Translation } from "react-i18next";
 
 export default class ButtonDesign extends React.Component {
   constructor() {
@@ -37,28 +38,39 @@ export default class ButtonDesign extends React.Component {
 
   render() {
     return (
-      <div
-        className="popover-container"
-        ref={(node) => {
-          this.node = node;
-        }}
-      >
-        <button
-          onClick={this.handleClick}
-          style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
-        >
-          ДИЗАЙН-ПРОЕКТ
-        </button>
-        {this.state.popupVisible && (
-          <div className="popover">
-            Полный пакет чертежей <br />
-            Спецификация мебели, освещения,сантехники, отделочных материалов{" "}
-            <br />
-            Планировочные решения с расстановкой мебели <br />
-            Фотореалистичная визуализация
+      <Translation>
+        {(t) => (
+          <div
+            className="popover-container"
+            ref={(node) => {
+              this.node = node;
+            }}
+          >
+            <button
+              onClick={this.handleClick}
+              style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
+            >
+              {" "}
+              {t(["home.dp"])}
+              {/*  DESIGN PROGECT */}
+            </button>
+            {this.state.popupVisible && (
+              <div className="popover">
+                {t(["home.dp-2"])}
+                {/* Full set of drawings */} <br />
+                {t(["home.dp-3"])}
+                {/*   Specification of furniture, lighting, plumbing and finishing
+                materials */}
+                <br />
+                {t(["home.dp-4"])}
+                {/* Layout solutions with furniture arrangement */} <br />
+                {t(["home.dp-5"])}
+                {/* Photorealistic visualization */}
+              </div>
+            )}
           </div>
         )}
-      </div>
+      </Translation>
     );
   }
 }

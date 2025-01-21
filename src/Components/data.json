@@ -104,22 +104,22 @@
     },
     {
       "id": 21,
-      "imageName": "../../17kv/029.jpg",
+      "imageName": "../../17kv/029.1.jpg",
       "tag": "ванная"
     },
     {
       "id": 22,
-      "imageName": "../../17kv/030.jpg",
+      "imageName": "../../17kv/030.1.jpg",
       "tag": "ванная"
     },
     {
       "id": 23,
-      "imageName": "../../17kv/031.jpg",
+      "imageName": "../../17kv/031.1.jpg",
       "tag": "ванная"
     },
     {
       "id": 24,
-      "imageName": "../../17kv/032.jpg",
+      "imageName": "../../17kv/032.1.jpg",
       "tag": "ванная"
     },
     {
@@ -246,23 +246,1073 @@
     },
     {
       "id": 49,
-      "imageName": "../../Kobylanska/20.1.jpg",
+      "imageName": "../../Kobylanska/020.1.jpg",
       "tag": "прихожая"
     },
     {
       "id": 50,
-      "imageName": "../../Kobylanska/21.1.jpg",
+      "imageName": "../../Kobylanska/021.1.jpg",
       "tag": "прихожая"
     },
     {
       "id": 60,
-      "imageName": "../../Kobylanska/22.1.jpg",
+      "imageName": "../../Kobylanska/022.1.jpg",
       "tag": "прихожая"
     },
     {
       "id": 61,
-      "imageName": "../../Kobylanska/23.1.jpg",
+      "imageName": "../../Kobylanska/023.2.jpg",
       "tag": "прихожая"
+    }
+  ],
+  "flat_3": [
+    {
+      "id": 62,
+      "imageName": "../../Inna/1.1.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 63,
+      "imageName": "../../Inna/2.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 64,
+      "imageName": "../../Inna/3.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 65,
+      "imageName": "../../Inna/6.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 66,
+      "imageName": "../../Inna/5.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 67,
+      "imageName": "../../Inna/7.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 68,
+      "imageName": "../../Inna/8.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 69,
+      "imageName": "../../Inna/4.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 70,
+      "imageName": "../../Inna/12.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 71,
+      "imageName": "../../Inna/13.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 72,
+      "imageName": "../../Inna/14.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 73,
+      "imageName": "../../Inna/15.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 74,
+      "imageName": "../../Inna/16.jpg",
+      "tag": "кабинет"
+    },
+    {
+      "id": 75,
+      "imageName": "../../Inna/17.jpg",
+      "tag": "кабинет"
+    },
+    {
+      "id": 76,
+      "imageName": "../../Inna/18.jpg",
+      "tag": "кабинет"
+    },
+    {
+      "id": 77,
+      "imageName": "../../Inna/23.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 78,
+      "imageName": "../../Inna/24.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 79,
+      "imageName": "../../Inna/25.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 80,
+      "imageName": "../../Inna/26.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 81,
+      "imageName": "../../Inna/19.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 82,
+      "imageName": "../../Inna/20.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 83,
+      "imageName": "../../Inna/21.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 84,
+      "imageName": "../../Inna/22.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 85,
+      "imageName": "../../Inna/plan.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 86,
+      "imageName": "../../Inna/27.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 87,
+      "imageName": "../../Inna/28.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 88,
+      "imageName": "../../Inna/29.jpg",
+      "tag": "гардеробная"
+    }
+  ],
+  "flat_4": [
+    {
+      "id": 89,
+      "imageName": "../../Yula/05.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 90,
+      "imageName": "../../Yula/06.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 91,
+      "imageName": "../../Yula/07.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 92,
+      "imageName": "../../Yula/08.jpg",
+      "tag": "столовая зона"
+    },
+    {
+      "id": 93,
+      "imageName": "../../Yula/09.jpg",
+      "tag": "столовая зона"
+    },
+    {
+      "id": 94,
+      "imageName": "../../Yula/010.jpg",
+      "tag": "столовая зона"
+    },
+    {
+      "id": 95,
+      "imageName": "../../Yula/012.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 96,
+      "imageName": "../../Yula/013.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 97,
+      "imageName": "../../Yula/011.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 98,
+      "imageName": "../../Yula/014.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 99,
+      "imageName": "../../Yula/015.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 100,
+      "imageName": "../../Yula/016.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 101,
+      "imageName": "../../Yula/01.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 102,
+      "imageName": "../../Yula/02.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 103,
+      "imageName": "../../Yula/03.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 104,
+      "imageName": "../../Yula/04.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 105,
+      "imageName": "../../Yula/017.jpg",
+      "tag": "детская"
+    },
+    {
+      "id": 106,
+      "imageName": "../../Yula/018.jpg",
+      "tag": "детская"
+    },
+    {
+      "id": 107,
+      "imageName": "../../Yula/019.jpg",
+      "tag": "детская"
+    },
+    {
+      "id": 108,
+      "imageName": "../../Yula/020.jpg",
+      "tag": "детская"
+    },
+    {
+      "id": 109,
+      "imageName": "../../Yula/021.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 110,
+      "imageName": "../../Yula/022.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 111,
+      "imageName": "../../Yula/023.1.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 112,
+      "imageName": "../../Yula/024.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 113,
+      "imageName": "../../Yula/025.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 114,
+      "imageName": "../../Yula/026.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 115,
+      "imageName": "../../Yula/027.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 116,
+      "imageName": "../../Yula/028.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 117,
+      "imageName": "../../Yula/131431.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 118,
+      "imageName": "../../Yula/131552.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 119,
+      "imageName": "../../Yula/131628.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 120,
+      "imageName": "../../Yula/131722.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 121,
+      "imageName": "../../Yula/131531.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 122,
+      "imageName": "../../Yula/131736.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 123,
+      "imageName": "../../Yula/131802.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 124,
+      "imageName": "../../Yula/131820.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 125,
+      "imageName": "../../Yula/131833.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 126,
+      "imageName": "../../Yula/131848.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 127,
+      "imageName": "../../Yula/131857.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 126,
+      "imageName": "../../Yula/132005.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 128,
+      "imageName": "../../Yula/132016.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 129,
+      "imageName": "../../Yula/132019.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 130,
+      "imageName": "../../Yula/132022.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 131,
+      "imageName": "../../Yula/132025.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 132,
+      "imageName": "../../Yula/132029.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 133,
+      "imageName": "../../Yula/132032.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 134,
+      "imageName": "../../Yula/132036.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 135,
+      "imageName": "../../Yula/132039.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 136,
+      "imageName": "../../Yula/132042.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 137,
+      "imageName": "../../Yula/132045.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 138,
+      "imageName": "../../Yula/132050.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 139,
+      "imageName": "../../Yula/132053.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 140,
+      "imageName": "../../Yula/132058.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 141,
+      "imageName": "../../Yula/132101.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 142,
+      "imageName": "../../Yula/132105.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 143,
+      "imageName": "../../Yula/132108.jpg",
+      "tag": "спецификация"
+    }
+  ],
+  "flat_5": [
+    {
+      "id": 144,
+      "imageName": "../../resthouse/01.jpg",
+      "tag": "экстерьер"
+    },
+    {
+      "id": 145,
+      "imageName": "../../resthouse/02.jpg",
+      "tag": "экстерьер"
+    },
+    {
+      "id": 146,
+      "imageName": "../../resthouse/08.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 147,
+      "imageName": "../../resthouse/010.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 148,
+      "imageName": "../../resthouse/03.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 149,
+      "imageName": "../../resthouse/04.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 150,
+      "imageName": "../../resthouse/05.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 151,
+      "imageName": "../../resthouse/06.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 152,
+      "imageName": "../../resthouse/07.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 153,
+      "imageName": "../../resthouse/09.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 154,
+      "imageName": "../../resthouse/011.jpg",
+      "tag": "санузел"
+    },
+    {
+      "id": 155,
+      "imageName": "../../resthouse/012.jpg",
+      "tag": "санузел"
+    }
+  ],
+  "flat_6": [
+    {
+      "id": 156,
+      "imageName": "../../Ostrog/1_fl/001-1.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 157,
+      "imageName": "../../Ostrog/1_fl/002.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 158,
+      "imageName": "../../Ostrog/1_fl/003.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 159,
+      "imageName": "../../Ostrog/1_fl/004.jpg",
+      "tag": "кухня"
+    },
+    {
+      "id": 160,
+      "imageName": "../../Ostrog/1_fl/005.jpg",
+      "tag": "холл"
+    },
+    {
+      "id": 161,
+      "imageName": "../../Ostrog/1_fl/009.jpg",
+      "tag": "холл"
+    },
+    {
+      "id": 162,
+      "imageName": "../../Ostrog/1_fl/010.jpg",
+      "tag": "холл"
+    },
+    {
+      "id": 163,
+      "imageName": "../../Ostrog/1_fl/007.jpg",
+      "tag": "лестница"
+    },
+    {
+      "id": 164,
+      "imageName": "../../Ostrog/1_fl/006.jpg",
+      "tag": "лестница"
+    },
+    {
+      "id": 165,
+      "imageName": "../../Ostrog/1_fl/008.jpg",
+      "tag": "лестница"
+    },
+    {
+      "id": 166,
+      "imageName": "../../Ostrog/2_fl/001.jpg",
+      "tag": "лестница"
+    },
+    {
+      "id": 167,
+      "imageName": "../../Ostrog/2_fl/002.jpg",
+      "tag": "лестница"
+    },
+    {
+      "id": 168,
+      "imageName": "../../Ostrog/1_fl/011.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 169,
+      "imageName": "../../Ostrog/1_fl/012.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 170,
+      "imageName": "../../Ostrog/1_fl/015.jpg",
+      "tag": "гостевая"
+    },
+    {
+      "id": 171,
+      "imageName": "../../Ostrog/1_fl/014.jpg",
+      "tag": "гостевая"
+    },
+    {
+      "id": 172,
+      "imageName": "../../Ostrog/1_fl/013.jpg",
+      "tag": "гостевая"
+    },
+    {
+      "id": 173,
+      "imageName": "../../Ostrog/1_fl/016.jpg",
+      "tag": "гостевая"
+    },
+    {
+      "id": 174,
+      "imageName": "../../Ostrog/1_fl/017.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 175,
+      "imageName": "../../Ostrog/1_fl/018.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 176,
+      "imageName": "../../Ostrog/1_fl/019.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 177,
+      "imageName": "../../Ostrog/1_fl/020.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 171,
+      "imageName": "../../Ostrog/1_fl/021.jpg",
+      "tag": "санузел"
+    },
+    {
+      "id": 172,
+      "imageName": "../../Ostrog/1_fl/022.jpg",
+      "tag": "санузел"
+    },
+    {
+      "id": 173,
+      "imageName": "../../Ostrog/2_fl/014.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 174,
+      "imageName": "../../Ostrog/2_fl/015.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 175,
+      "imageName": "../../Ostrog/2_fl/016.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 176,
+      "imageName": "../../Ostrog/2_fl/017.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 177,
+      "imageName": "../../Ostrog/2_fl/019.jpg",
+      "tag": "гостиная"
+    },
+    {
+      "id": 178,
+      "imageName": "../../Ostrog/2_fl/007.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 179,
+      "imageName": "../../Ostrog/2_fl/008.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 179,
+      "imageName": "../../Ostrog/2_fl/009.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 179,
+      "imageName": "../../Ostrog/2_fl/010.jpg",
+      "tag": "спальня"
+    },
+    {
+      "id": 113,
+      "imageName": "../../Ostrog/2_fl/011.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 114,
+      "imageName": "../../Ostrog/2_fl/012.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 115,
+      "imageName": "../../Ostrog/2_fl/013.jpg",
+      "tag": "гардеробная"
+    },
+    {
+      "id": 174,
+      "imageName": "../../Ostrog/2_fl/003.jpg",
+      "tag": "ванная-2"
+    },
+    {
+      "id": 175,
+      "imageName": "../../Ostrog/2_fl/004.jpg",
+      "tag": "ванная-2"
+    },
+    {
+      "id": 176,
+      "imageName": "../../Ostrog/2_fl/005.jpg",
+      "tag": "ванная-2"
+    },
+    {
+      "id": 177,
+      "imageName": "../../Ostrog/2_fl/006.jpg",
+      "tag": "ванная-2"
+    },
+    {
+      "id": 178,
+      "imageName": "../../Ostrog/plans/163852.jpg",
+      "tag": "обмерный план"
+    },
+    {
+      "id": 179,
+      "imageName": "../../Ostrog/plans/163933.jpg",
+      "tag": "обмерный план"
+    },
+    {
+      "id": 180,
+      "imageName": "../../Ostrog/plans/163944.jpg",
+      "tag": "обмерный план"
+    },
+    {
+      "id": 181,
+      "imageName": "../../Ostrog/plans/164101.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 182,
+      "imageName": "../../Ostrog/plans/164127.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 183,
+      "imageName": "../../Ostrog/plans/164138.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 184,
+      "imageName": "../../Ostrog/plans/164146.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 185,
+      "imageName": "../../Ostrog/plans/164151.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 186,
+      "imageName": "../../Ostrog/plans/164156.jpg",
+      "tag": "планировка"
+    },
+    {
+      "id": 187,
+      "imageName": "../../Ostrog/plans/163811.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 189,
+      "imageName": "../../Ostrog/plans/164204.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 190,
+      "imageName": "../../Ostrog/plans/164209.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 191,
+      "imageName": "../../Ostrog/plans/164231.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 192,
+      "imageName": "../../Ostrog/plans/164236.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 193,
+      "imageName": "../../Ostrog/plans/164239.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 194,
+      "imageName": "../../Ostrog/plans/164244.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 195,
+      "imageName": "../../Ostrog/plans/164253.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 196,
+      "imageName": "../../Ostrog/plans/164257.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 197,
+      "imageName": "../../Ostrog/plans/164301.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 198,
+      "imageName": "../../Ostrog/plans/164305.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 199,
+      "imageName": "../../Ostrog/plans/164309.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 200,
+      "imageName": "../../Ostrog/plans/164312.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 201,
+      "imageName": "../../Ostrog/plans/164317.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 202,
+      "imageName": "../../Ostrog/plans/164321.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 203,
+      "imageName": "../../Ostrog/plans/164324.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 204,
+      "imageName": "../../Ostrog/plans/164333.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 205,
+      "imageName": "../../Ostrog/plans/164337.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 206,
+      "imageName": "../../Ostrog/plans/164341.jpg",
+      "tag": "планы"
+    },
+    {
+      "id": 207,
+      "imageName": "../../Ostrog/plans/171840.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 208,
+      "imageName": "../../Ostrog/plans/171846.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 209,
+      "imageName": "../../Ostrog/plans/171851.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 210,
+      "imageName": "../../Ostrog/plans/171855.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 211,
+      "imageName": "../../Ostrog/plans/171900.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 212,
+      "imageName": "../../Ostrog/plans/171903.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 213,
+      "imageName": "../../Ostrog/plans/171907.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 214,
+      "imageName": "../../Ostrog/plans/171911.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 215,
+      "imageName": "../../Ostrog/plans/171915.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 216,
+      "imageName": "../../Ostrog/plans/171919.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 217,
+      "imageName": "../../Ostrog/plans/171922.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 218,
+      "imageName": "../../Ostrog/plans/171926.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 219,
+      "imageName": "../../Ostrog/plans/171929.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 220,
+      "imageName": "../../Ostrog/plans/171931.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 221,
+      "imageName": "../../Ostrog/plans/171934.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 222,
+      "imageName": "../../Ostrog/plans/171938.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 223,
+      "imageName": "../../Ostrog/plans/171941.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 224,
+      "imageName": "../../Ostrog/plans/171944.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 225,
+      "imageName": "../../Ostrog/plans/171947.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 226,
+      "imageName": "../../Ostrog/plans/171950.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 227,
+      "imageName": "../../Ostrog/plans/171953.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 228,
+      "imageName": "../../Ostrog/plans/171956.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 229,
+      "imageName": "../../Ostrog/plans/172013.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 230,
+      "imageName": "../../Ostrog/plans/172018.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 231,
+      "imageName": "../../Ostrog/plans/172022.jpg",
+      "tag": "развёртки"
+    },
+    {
+      "id": 232,
+      "imageName": "../../Ostrog/plans/172026.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 233,
+      "imageName": "../../Ostrog/plans/172030.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 234,
+      "imageName": "../../Ostrog/plans/172034.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 235,
+      "imageName": "../../Ostrog/plans/172037.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 236,
+      "imageName": "../../Ostrog/plans/172041.jpg",
+      "tag": "спецификация"
+    },
+    {
+      "id": 237,
+      "imageName": "../../Ostrog/plans/172045.jpg",
+      "tag": "спецификация"
+    }
+  ],
+  "flat_7": [
+    {
+      "id": 238,
+      "imageName": "../../Genesis/01.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 239,
+      "imageName": "../../Genesis/02.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 240,
+      "imageName": "../../Genesis/03.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 241,
+      "imageName": "../../Genesis/04.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 242,
+      "imageName": "../../Genesis/05.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 243,
+      "imageName": "../../Genesis/06.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 244,
+      "imageName": "../../Genesis/07.jpg",
+      "tag": "студия"
+    },
+    {
+      "id": 245,
+      "imageName": "../../Genesis/010.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 246,
+      "imageName": "../../Genesis/09.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 247,
+      "imageName": "../../Genesis/08.jpg",
+      "tag": "прихожая"
+    },
+    {
+      "id": 248,
+      "imageName": "../../Genesis/013.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 249,
+      "imageName": "../../Genesis/012.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 250,
+      "imageName": "../../Genesis/011.jpg",
+      "tag": "ванная"
+    },
+    {
+      "id": 252,
+      "imageName": "../../Genesis/plan.jpg",
+      "tag": "планировка"
     }
   ]
 }

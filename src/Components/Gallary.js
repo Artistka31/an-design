@@ -7,7 +7,7 @@ import ImageViewer from "react-simple-image-viewer";
 const images = flat;
 
 export default function Gallary() {
-  const [tag, setTag] = useState("all" /* "tag" */);
+  const [tag, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -24,8 +24,6 @@ export default function Gallary() {
   };
 
   useEffect(() => {
-    /* const a = localStorage.getItem("tag");
-    console.log(a); */
     tag === "all"
       ? setFilteredImages(images.flat)
       : setFilteredImages(images.flat.filter((image) => image.tag === tag));
@@ -88,6 +86,18 @@ export default function Gallary() {
           handleSetTag={setTag}
         />
       </div>
+      <h5
+        className="mt-3"
+        style={{
+          fontWeight: "bold",
+          fontFamily: "Montserrat, sans-serif",
+          marginLeft: "1em",
+          textAlign: "center",
+          color: "#46669c",
+        }}
+      >
+        Визуализация интерьера квартиры. Кривой Рог, ул. Немецкая
+      </h5>
       <div
         style={{
           fontWeight: "bold",

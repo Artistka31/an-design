@@ -1,5 +1,6 @@
 import React from "react";
 import "./Button.css";
+import { Translation } from "react-i18next";
 
 export default class Button3d extends React.Component {
   constructor() {
@@ -37,24 +38,31 @@ export default class Button3d extends React.Component {
 
   render() {
     return (
-      <div
-        className="popover-container"
-        ref={(node) => {
-          this.node = node;
-        }}
-      >
-        <button
-          onClick={this.handleClick}
-          style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
-        >
-          3Д ВИЗУАЛИЗАЦИЯ
-        </button>
-        {this.state.popupVisible && (
-          <div className="popover">
-            Фотореалистичная <br /> 3д визуализация
+      <Translation>
+        {(t) => (
+          <div
+            className="popover-container"
+            ref={(node) => {
+              this.node = node;
+            }}
+          >
+            <button
+              onClick={this.handleClick}
+              style={{ border: "0px", fontFamily: "Montserrat, sans-serif" }}
+            >
+              {t(["home.3D"])}
+              {/*  3D VISUALIZATION */}
+            </button>
+            {this.state.popupVisible && (
+              <div className="popover">
+                {t(["home.3D-2"])}
+                {/*  Photorealistic */} <br /> {t(["home.3D-3"])}
+                {/* 3D visualization */}
+              </div>
+            )}
           </div>
         )}
-      </div>
+      </Translation>
     );
   }
 }

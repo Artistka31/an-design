@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "../Pages/card.scss";
-import { Link } from "react-router-dom";
+import kitchen from "../assets/Kobylanska/06.2.jpg";
+import hall from "../assets/Kobylanska/017.1.jpg";
+import bedroom from "../assets/Kobylanska/015.1.jpg";
 
-import kitchen from "../assets/17kv/04.jpg";
-import hall from "../assets/17kv/05.jpg";
-import bedroom from "../assets/17kv/013.jpg";
-
-import bathroom from "../assets/17kv/031.jpg";
-import hallway from "../assets/17kv/010.jpg";
+import bathroom from "../assets/Kobylanska/01.1.jpg";
 
 import flat from "../Components/data.json";
 import { useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
+import { Translation } from "react-i18next";
 
 const images = flat;
 
@@ -39,135 +37,135 @@ function FlatTwo() {
   }, [tag]);
 
   return (
-    <div
-      className="mt-5"
-      style={{
-        fontWeight: "bold",
-        fontFamily: "Montserrat, sans-serif",
-        marginLeft: "1em",
-        textAlign: "center",
-        color: "#46669c",
-      }}
-    >
-      <h6 className="mt-5">
-        Визуализация интерьера дома. Кривой Рог, ул. Кобылянская
-      </h6>
-      <div className="wrapper mt-4">
+    <Translation>
+      {(t) => (
         <div
-          className="card"
           style={{
+            fontWeight: "bold",
             fontFamily: "Montserrat, sans-serif",
+            marginLeft: "1em",
+            textAlign: "center",
+            color: "#46669c",
           }}
         >
-          <Card
-            img={images.flat_2.map((image) => image.imageName)}
-            alt="kitchen"
-            title="Кухня"
-            description="Дизайн интерьера кухни в Кривом Роге."
-          />
-          <div onClick={(currentIndex) => openImageViewer(currentIndex.button)}>
-            <TagButton
-              name="кухня"
-              tagactive={tag === "кухня" ? true : false}
-              handleSetTag={setTag}
-            />
-          </div>
-        </div>
-        <div className="card">
-          <Card
-            img={hall}
-            alt="hall"
-            title="Гостиная"
-            description="Дизайн интерьера гостиной в Кривом Роге."
-          />
-          <div onClick={(currentIndex) => openImageViewer(currentIndex.button)}>
-            <TagButton
-              name="гостиная"
-              tagactive={tag === "гостиная" ? true : false}
-              handleSetTag={setTag}
-            />
-          </div>
-        </div>
-        <div className="card">
-          <Card
-            img={bedroom}
-            alt="bedroom"
-            title="Спальня"
-            description="Дизайн интерьера спальни в Кривом Роге."
-          />
-          <div onClick={(currentIndex) => openImageViewer(currentIndex.button)}>
-            <TagButton
-              name="спальня"
-              tagactive={tag === "спальня" ? true : false}
-              handleSetTag={setTag}
-            />
-          </div>
-        </div>
+          <h6>
+            {t(["portfolio.adres-5"])}
+            {/*    Visualization of the interior of the house. Krivoy Rog, Kobylyanska
+            str. */}
+          </h6>
+          <div className="wrapper mt-4">
+            <div
+              className="card"
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+              }}
+            >
+              <Card
+                img={kitchen}
+                alt="kitchen"
+                title=/* "Kitchen" */ {t(["portfolio.title-1"])}
+                description=/* "Kitchen interior design" */ {t([
+                  "portfolio.description",
+                ])}
+              />
+              <div
+                onClick={(currentIndex) => openImageViewer(currentIndex.button)}
+              >
+                <TagButton
+                  name="кухня"
+                  tagactive={tag === "кухня" ? true : false}
+                  handleSetTag={setTag}
+                />
+              </div>
+            </div>
+            <div className="card">
+              <Card
+                img={hall}
+                alt="hall"
+                title=/* "Living room" */ {t(["portfolio.title-2"])}
+                description=/* "Living room interior design" */ {t([
+                  "portfolio.description-2",
+                ])}
+              />
+              <div
+                onClick={(currentIndex) => openImageViewer(currentIndex.button)}
+              >
+                <TagButton
+                  name="гостиная"
+                  tagactive={tag === "гостиная" ? true : false}
+                  handleSetTag={setTag}
+                />
+              </div>
+            </div>
+            <div className="card">
+              <Card
+                img={bedroom}
+                alt="bedroom"
+                title=/* "Bedroom" */ {t(["portfolio.title-3"])}
+                description=/* "Interior design of a bedroom" */ {t([
+                  "portfolio.description-3",
+                ])}
+              />
+              <div
+                onClick={(currentIndex) => openImageViewer(currentIndex.button)}
+              >
+                <TagButton
+                  name="спальня"
+                  tagactive={tag === "спальня" ? true : false}
+                  handleSetTag={setTag}
+                />
+              </div>
+            </div>
 
-        <div className="card">
-          <Card
-            img={bathroom}
-            alt="bathroom"
-            title="Ванная"
-            description="Дизайн интерьера ванной в Кривом Роге."
-          />
+            <div className="card">
+              <Card
+                img={bathroom}
+                alt="bathroom"
+                title=/* "Bathroom" */ {t(["portfolio.title-6"])}
+                description=/* "Bathroom interior design" */ {t([
+                  "portfolio.description-6",
+                ])}
+              />
+              <div
+                onClick={(currentIndex) => openImageViewer(currentIndex.button)}
+              >
+                <TagButton
+                  name="ванная"
+                  tagactive={tag === "ванная" ? true : false}
+                  handleSetTag={setTag}
+                />
+              </div>
+            </div>
+          </div>
+
           <div onClick={(currentIndex) => openImageViewer(currentIndex.button)}>
-            <TagButton
-              name="ванная"
-              tagactive={tag === "ванная" ? true : false}
+            <TagButtonAll
+              name="all"
+              tagactive={tag === "all" ? true : false}
               handleSetTag={setTag}
             />
           </div>
-        </div>
 
-        <div className="card">
-          <Card
-            img={hallway}
-            alt="hallway"
-            title="Прихожая"
-            description="Дизайн интерьера прихожей в Кривом Роге."
-          />
-          <div onClick={(currentIndex) => openImageViewer(currentIndex.button)}>
-            <TagButton
-              name="прихожая"
-              tagactive={tag === "прихожая" ? true : false}
-              handleSetTag={setTag}
-            />
+          <div>
+            {isViewerOpen && (
+              <ImageViewer
+                src={filteredImages.map((image) => image.imageName)}
+                currentIndex={currentImage}
+                onClose={closeImageViewer}
+                disableScroll={false}
+                backgroundStyle={{
+                  backgroundColor: "rgba(0,0,0,0.9)",
+                }}
+                style={{
+                  maxHeight: "100%",
+                }}
+                closeOnClickOutside={true}
+              />
+            )}
           </div>
         </div>
-      </div>
-      <Link activeclassname="active" to="/Gallary" rel="noreferrer">
-        <button className="card__btn" style={{ marginTop: "3em" }}>
-          ПОСМОТРЕТЬ BСЁ
-        </button>
-      </Link>
-
-      <div
-        style={{
-          fontWeight: "bold",
-          fontFamily: "Montserrat, sans-serif",
-          textAlign: "center",
-          color: "#46669c",
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-          marginTop: "2em",
-        }}
-      >
-        {isViewerOpen && (
-          <ImageViewer
-            src={filteredImages.map((image) => image.imageName)}
-            currentIndex={currentImage}
-            onClose={closeImageViewer}
-            disableScroll={false}
-            backgroundStyle={{
-              backgroundColor: "rgba(0,0,0,0.9)",
-            }}
-            closeOnClickOutside={true}
-          />
-        )}
-      </div>
-    </div>
+      )}
+    </Translation>
   );
 }
 
@@ -189,15 +187,41 @@ function Card(props) {
 
 const TagButton = ({ name, handleSetTag, tagactive }) => {
   return (
-    <div>
-      <button
-        className="card__btn"
-        id={`tag ${tagactive ? "active" : null}`}
-        onClick={() => handleSetTag(name)}
-      >
-        {/*       {name.toUpperCase()} */}ПОСМОТРЕТЬ
-      </button>
-    </div>
+    <Translation>
+      {(t) => (
+        <div>
+          <button
+            className="card__btn"
+            id={`tag ${tagactive ? "active" : null}`}
+            onClick={() => handleSetTag(name)}
+          >
+            {t(["home.button-3"])}
+            {/*       {name.toUpperCase()} */}
+            {/* SEE MORE */}
+          </button>
+        </div>
+      )}
+    </Translation>
+  );
+};
+
+const TagButtonAll = ({ name, handleSetTag, tagactive }) => {
+  return (
+    <Translation>
+      {(t) => (
+        <div>
+          <button
+            className="btn-outline-light-blue py-3 px-5 mt-4 mb-5 rounded-0"
+            id={`tag ${tagactive ? "active" : null}`}
+            onClick={() => handleSetTag(name)}
+          >
+            {t(["portfolio.button-4"])}
+            {/*{name.toUpperCase()} */}
+            {/* SEE ALL */}
+          </button>
+        </div>
+      )}
+    </Translation>
   );
 };
 
